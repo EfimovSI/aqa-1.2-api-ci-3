@@ -15,8 +15,8 @@ public class PostmanEchoTest {
                 .baseUri("https://postman-echo.com")
                 .contentType("text/plain; charset=UTF-8")
                 .body(  "\"name\": \"Иван\",\r\n" +
-                        "\"patronymic\": \"Петрович\",\r\n" +
-                        "\"surname\": \"Кузнецов\"\r\n" +
+                        "\"patronymic\": \"Иванович\",\r\n" +
+                        "\"surname\": \"Иванов\"\r\n" +
                         "\"birthday\": \"13.06.1999\",\r\n" +
                         "\"passport\": \"1111 № 123456\",\r\n" +
                         "\"phone\": \"+7 (999)-999-99-99\""
